@@ -43,6 +43,18 @@ body {
 }
 
 /* COMPONENTS */
+.logo {
+  font-family: var(--logo-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+
+  color: #000000;
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
 
 .modal-button {
   font-family: inherit;
@@ -71,19 +83,6 @@ body {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-}
-
-.logo {
-  font-family: var(--logo-font-family);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-
-  color: #000000;
-}
-
-.logo-accent {
-  color: var(--accent-color);
 }
 
 .navigation-list-link {
