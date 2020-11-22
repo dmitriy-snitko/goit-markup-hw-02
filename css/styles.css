@@ -35,6 +35,7 @@
 
 .team-list-title {
   font-weight: 500;
+  font-size: inherit;
   color: var(--titels-color);
 }
 
